@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/yellow">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="40dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/cari"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/lonceng"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/tas"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="120dp"
+        android:src="@drawable/indo2"
+        android:layout_marginTop="-70dp"
+        android:layout_marginLeft="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@drawable/blue"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/prcel"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Parcel"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="-47dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Food"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="22dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:text="Produk Virtual"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="20dp"
+            android:text="Travel"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="22dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="90dp"
+            android:text="Tiket Wahana"
+            android:textColor="@color/black"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-270dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/food"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/lamp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/trvel"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/wahna"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promo Lainnya"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Semua"
+        android:textColor="#009FBD"
+        android:textStyle="bold"
+        android:layout_marginTop="-13dp"
+        android:layout_marginLeft="265dp"
+        android:textSize="15dp"/>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="90dp"
+        android:src="@drawable/indo2"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="90dp"
+        android:src="@drawable/indo2"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="-90dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/ungu"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Official Store"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"/>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="-85dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/sato"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/donut"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/garnier"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:background="@drawable/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nnestle"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flash Sale"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lihat Semua"
+        android:textSize="15dp"
+        android:textColor="#009FBD"
+        android:textStyle="bold"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="-20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/ungu"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/home"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/menu"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/list"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/love"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/install"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
